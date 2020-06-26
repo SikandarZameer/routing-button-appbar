@@ -26,6 +26,9 @@ export default function App() {
 
       <Button
         color="primary"
+        disableRipple
+        disableFocusRipple
+        disableElevation
         activeClassName={classes.active}
         component={NavLink}
         to="/about"
@@ -35,6 +38,9 @@ export default function App() {
 
       <Button
         color="primary"
+        disableRipple
+        disableFocusRipple
+        disableElevation
         activeClassName={classes.active}
         component={NavLink}
         to="/home"
